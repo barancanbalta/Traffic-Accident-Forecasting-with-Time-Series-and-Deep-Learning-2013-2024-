@@ -1,24 +1,21 @@
-# Traffic-Accident-Forecasting-with-Time-Series-and-Deep-Learning-2013-2024-
 # Traffic Accident Forecasting (2013–2024)
 
 This project applies time series modeling and deep learning to forecast monthly traffic accidents in Turkey using open data from TÜİK.
 
 ## 🔍 Goal
-
 To compare classical time series models (SARIMA, Holt-Winters) with deep learning approaches (ANN, CNN) and evaluate their forecasting performance.
 
 ## 🚀 Best Performance (ANN Model)
-
-- **R²**: 0.9315
-- **MAPE**: 3.62%
-- **RMSE**: 947.92
-- **Best Parameters**:
-  - `look_back = 24`
-  - `neurons = 32-16`
-  - `activation = relu`
-  - `batch_size = 32`
-  - `learning_rate = 0.001`
-  - `scaler = MinMaxScaler`
+- **R²**: 0.9315  
+- **MAPE**: 3.62%  
+- **RMSE**: 947.92  
+- **Best Parameters**:  
+  - `look_back = 24`  
+  - `neurons = 32-16`  
+  - `activation = relu`  
+  - `batch_size = 32`  
+  - `learning_rate = 0.001`  
+  - `scaler = MinMaxScaler`  
 
 ## 📁 Project Structure
 
@@ -32,13 +29,12 @@ To compare classical time series models (SARIMA, Holt-Winters) with deep learnin
 
 ## 🛠 Tools & Libraries
 
-- Python, pandas, NumPy, scikit-learn
-- TensorFlow / Keras
-- Matplotlib
+- Python, pandas, NumPy, scikit-learn  
+- TensorFlow / Keras  
+- Matplotlib  
 - ExcelWriter, datetime
 
 ## 📌 Dataset Source
-
 Data obtained from [TÜİK – Türkiye İstatistik Kurumu](https://www.tuik.gov.tr/)
 
 ---
